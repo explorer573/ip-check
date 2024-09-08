@@ -19,7 +19,7 @@ print('''
 
 ''')
 
-getIP = input("your ip: ")
+getIP = input("target ip: ")
 url = "https://ipinfo.io/" + getIP + "/json"
 
 try:
